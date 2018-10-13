@@ -10,6 +10,7 @@ import {FormsModule} from '@angular/forms';
 import {AppRoutingModule} from './/app-routing.module';
 import {HeroListComponent} from './hero-list/hero-list.component';
 import {DashboardComponent} from './dashboard/dashboard.component';
+import {TopNavComponent} from './top-nav/top-nav.component';
 
 @NgModule({
     declarations: [
@@ -18,7 +19,8 @@ import {DashboardComponent} from './dashboard/dashboard.component';
         MessagesComponent,
         HeroComponent,
         HeroListComponent,
-        DashboardComponent
+        DashboardComponent,
+        TopNavComponent
     ],
     imports: [
         BrowserModule,

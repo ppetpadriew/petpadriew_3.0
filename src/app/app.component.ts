@@ -8,7 +8,7 @@ import {MessageService} from './services/message.service';
     styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-    public title = 'Tour of Heroes';
+    public title = 'Turbo Solution';
     public selectedHero: Hero;
 
     public heroes: Hero[];
