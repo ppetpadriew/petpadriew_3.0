@@ -1,0 +1,5 @@
+<div class="row">
+    <div class="col-md-3 hero-tile" *ngFor="let hero of heroes" routerLink="/hero/{{hero.id}}">
+        {{hero.name}}
+    </div>
+</div>

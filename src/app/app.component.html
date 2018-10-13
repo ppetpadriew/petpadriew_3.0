@@ -1,0 +1,12 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container">
+    <h1>
+        {{title}}
+    </h1>
+    <a class="btn btn-default" routerLink="/dashboard" routerLinkActive="btn-primary">Dashboard</a>
+    <a class="btn btn-default" routerLink="/heroes" routerLinkActive="btn-primary">Heroes</a>
+    <router-outlet></router-outlet>
+    <!--<app-hero-list (listItemClicked)="setSelected($event)"></app-hero-list>-->
+    <!--<app-hero [hero]="selectedHero" name="Turbo" (isClicked)="sayHello($event)"></app-hero>-->
+    <app-messages></app-messages>
+</div>
