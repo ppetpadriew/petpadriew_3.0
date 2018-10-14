@@ -18,8 +18,8 @@ $nav-section-space: 50px;
 
 .nav-item {
   padding: 15px;
-  height: 30px;
-  line-height: 15px;
+  height: 2rem;
+  line-height: 1.5rem;
   float: left;
   color: get-nav-item-txt-color();
   &.active {
@@ -37,7 +37,7 @@ $nav-section-space: 50px;
 .block-call {
   border-left: 1px solid get-nav-item-txt-color();;
   position: relative;
-  padding-left: $nav-section-space + 30px;
+  padding-left: $nav-section-space + 35px;
   height: 100%;
   font-weight: bold;
 
@@ -46,7 +46,7 @@ $nav-section-space: 50px;
     position: absolute;
     left: $nav-section-space;
     top: 10px;
-    font-size: 2.8rem;
+    font-size: 2rem;
   }
   //&::before {
   //  content: "\f10b";
