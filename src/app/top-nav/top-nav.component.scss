@@ -28,7 +28,7 @@ $nav-section-space: 50px;
   &.last {
     padding-right: $nav-section-space;
   }
-  &:hover {
+  &:hover, &:visited, &:active, &:focus {
     text-decoration: none;
     color: get-nav-item-txt-color(true);
   }
