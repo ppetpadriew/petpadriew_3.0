@@ -6,7 +6,7 @@ import {animate, query, stagger, style, transition, trigger} from '@angular/anim
 @Component({
     selector: 'app-dashboard',
     templateUrl: './dashboard.component.html',
-    styleUrls: ['./dashboard.component.css'],
+    styleUrls: ['./dashboard.component.scss'],
     animations: [
         trigger('pageAnimation', [
             transition(':enter', [
