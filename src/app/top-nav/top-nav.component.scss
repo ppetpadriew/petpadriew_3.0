@@ -1,0 +1,26 @@
+@import "../global-scss/global-variables";
+
+.navbar {
+  border-radius: 0px;
+}
+
+.navbar-brand {
+  color: $txt-primary-color;
+}
+
+.nav-item {
+  padding: 15px;
+  height: 50px;
+  line-height: 20px;
+  float: left;
+  color: rgba(255, 255, 255, .5);
+}
+
+.nav-item.active {
+  color: $txt-primary-color;
+}
+
+.nav-item:hover {
+  text-decoration: none;
+  color: rgba(255, 255, 255, .8);
+}
