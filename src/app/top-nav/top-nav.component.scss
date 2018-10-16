@@ -19,7 +19,6 @@ $nav-section-space: 50px;
 .nav-item {
   padding: 15px;
   height: 2rem;
-  line-height: 1.5rem;
   float: left;
   color: get-nav-item-txt-color();
   &.active {
